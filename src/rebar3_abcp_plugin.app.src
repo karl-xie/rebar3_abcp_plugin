@@ -1,0 +1,7 @@
+{application, rebar3_abcp_plugin, [
+    {description, "A rebar3 abcp plugin for compiling .abcp files"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [kernel, stdlib, abcp]},
+    {env, []}
+]}.
